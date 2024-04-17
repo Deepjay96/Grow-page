@@ -1,0 +1,17 @@
+@media  screen and (max-width: 830px) {
+     .head{
+        width: 80%;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+     }
+
+     .search-bar{
+      width: auto!important;
+     }
+
+     .progress-circle-bar{
+      display: flex;
+      flex-direction: column;
+     }
+}

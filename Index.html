@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Groww Website</title>
+    <link rel="stylesheet" href="Style.css"/>
+    <link rel="stylesheet" href="util.css">
+  </head>
+
+  <body>
+    <nav class="head">
+      <div class="img">
+        <img
+          src=" https://storage.googleapis.com/groww-assets/web-assets/img/website-logo/logo-dark-groww.svg"
+          alt="Grow logo"
+          width="148px"
+          height="40px"
+        />
+      </div>
+
+      <div class="card1">
+      <div class="search-bar">
+        <div id="icon">
+          <img
+            src="https://media.istockphoto.com/id/924437708/vector/magnifying-glass-icon.jpg?s=612x612&w=0&k=20&c=VXDoaQ6Ns61N2v6CsMXX-vYlG5oUY3ufoUncvUp1zNY="
+            alt="icon logo"
+            width="40px"
+            height="40px"
+          />
+        </div>
+        <form action="">
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="What are you looking for today?"
+            class="input"
+          />
+        </form>
+
+       
+
+      </div>
+
+      <div class="btn">
+        <button>Login/Register</button>
+      </div>
+
+    </div>
+
+    </nav>
+
+    <hr />
+
+    <div class="li-share">
+      <div class="lists">
+        <ul>
+          <li>Home</li>
+          <li>></li>
+          <li>Calculators</li>
+          <li>></li>
+          <li>HDFC SIP Calculator</li>
+        </ul>
+      </div>
+
+      <div class="share">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/1828/1828956.png"
+          alt="logo"
+          width="10px"
+          height="10px"
+        />
+        <span>SHARE</span>
+      </div>
+    </div>
+
+    <div class="head1">
+      <h1>HDFC SIP Calculator</h1>
+    </div>
+
+    <div class="box">
+
+      <div class="leftbox">
+    
+    <div class="slider-container">
+      <button class="btn1">SIP</button>
+      <span class="l1">Lumpsum</span>
+
+     <div class="progress-circle-bar">
+
+     <div class="progress-bar">
+
+      <div class="main-sliders">
+        <div class="s1">
+        <span class="main1">Monthly investment</span>
+        <div class="amount-display">
+          <span class="symbol">₹</span>
+        <input type="number" id="monthly-investment-input" class="num1" min="500" max="100000" value="25000"/>
+      </div>
+
+      </div>
+        <div class="sliderbar">
+          <input
+            type="range"
+            min="500"
+            max="100000"
+            value="25000"
+            class="slider"
+            id="monthly-investment-slider"
+            step="500"
+          />
+        
+        </div>
+      </div>
+
+      <div class="main-sliders">
+        <div class="s2">
+        <span class="main1">Expected return rate(p.a)</span>
+        <div class="percentage">
+        <input type="number" id="expected-returns-input" class="num2" min="1" max="30" value="12"/>
+        <span class="symbol-per">%</span>
+      </div>
+      </div>
+        <div class="sliderbar">
+          <input
+            type="range"
+            min="1"
+            max="30"
+            value="12"
+            class="slider"
+            id="expected-returns-slider"
+            step="0.1"
+          />
+        </div>
+      </div>
+
+      <div class="main-sliders bar3">
+        <div class="s3">
+        <span class="main1">Time period</span>
+        <div class="year">
+        <input type="number" class="num3" id="time-period-input" min="1" max="40" value="10"/>
+         <span class="sym-yr">Yr</span>
+      </div>
+      </div>
+        <div class="sliderbar">
+          <input
+            type="range"
+            min="1"
+            max="40"
+            value="10"
+            class="slider"
+            id="time-period-slider"
+          />
+        </div>
+      </div>
+    </div>
+ 
+    <div class="circular-bar">
+ 
+      <div class="amount">
+
+      <div class="d1"></div>
+      <span class="info">Invested amount</span>
+
+      <div class="d2"></div>
+      <span class="info">Est. returns</span>
+
+    </div>
+
+      <div class="circle-bar">
+
+        
+          <div class="cb-circle">
+            <div class="wraper">
+              <span class="vlu"></span>
+            </div>
+          </div>
+        
+
+    </div>
+
+    </div>
+
+
+    </div>
+
+
+  <div class="bottom">
+      <div class="values">
+        <div class="v1">
+          <span class="sen">Invested amount</span>
+          <span class="message" id="invested-amount">₹30,00,000</span>
+        </div>
+
+        <div class="v2">
+          <span class="sen">Est. returns</span>
+          <span class="message" id="return-amount">₹28,08,477</span>
+        </div>
+
+        <div class="v3">
+          <span class="sen">Total value</span>
+          <span class="message" id="total-value">₹58,08,477</span>
+        </div>
+      </div>
+
+      <div class="butn">
+        <button class="btn5">INVEST NOW</button>
+      </div>
+  
+
+    </div>
+
+
+
+      
+    </div>
+
+    <div class="main-content">
+      <h2>HDFC Mutual Fund SIP calculator</h2>
+      <p class="para">SIP or Systematic Investment Plans are financial instruments that allow investors to invest a fixed sum regularly in Mutual Funds of their choice. With these investment plans, a fixed amount is deducted from the investor’s savings account each month and is directed towards their selected Mutual Funds. An individual can opt for weekly, quarterly or monthly investment plans for SIPs.
+
+      </p>
+      <p class="para">Most investors have a common misconception that SIPs are a category of Mutual Fund. SIPs are, however, one of the methods of investing in Mutual Funds, while the other method is lump-sum investments.
+
+      </p>
+      <p class="para">For instance, investors can choose to invest in Equity Linked Savings Scheme (ELSS) Mutual Funds through SIPs. Investing in these Mutual Funds offers investors tax benefits of up to Rs. 1.5 Lakh on their principal amount under Section 80C of the Income Tax Act.</p>
+      <p class="para">HDFC is one such financial institution that offers individuals an option to invest in Mutual Funds through SIPs. Furthermore, this institution also offers investors the benefits of HDFC SIP calculator, which can help them, calculate the returns they can avail by investing their capital in these funds.</p>
+    </div>
+
+
+  </div>
+
+   <div class="right">
+
+    <div class="rightbox">
+
+      <div class="img">
+           <img src="//assets-netstorage.groww.in/web-assets/billion_groww_desktop/prod/_next/static/media/defaultSidebar.b40891fd.svg" alt="img">
+      </div>
+
+        <div class="text">Invest the way you want</div>
+
+        <div class="text1">Join millions of Indians who trust and love Groww</div>
+
+        <div class="bohead">
+          <span class="btn4">EXPLORE PRODUCTS</span>
+        </div>
+      
+    </div>
+ 
+    <div class="table">
+      <div class="tablehead">Popular Calculators</div>
+      <a href="">SIP Calculator</a>
+      <a href="">Lumpsum Calculator</a>
+      <a href="">SWP Calculator</a>
+      <a href="">Mutual Fund Returns Calculator</a>
+      <a href="">Sukanya Samriddhi Yojana Calculator</a>
+      <a href="">PPF Calculator</a>
+      <a href="">EPF Calculator</a>
+      <a href="">FD Calculator</a>
+      <a href="">RD Calculator</a>
+      <a href="">EMI Calculator</a>
+      <a href="">Income Tax Calculator</a>
+    </div>
+
+    <div class="tble">
+      <div class="tblehead">Mutual Fund Calculator</div>
+      <a href="">SBI SIP Calculator</a>
+      <a href="">Step Up SIP Calculator</a>
+      <a href="">HDFC SIP Calculator</a>
+      <a href="">Canara Bank Calculator</a>
+      <a href="">Axis Bank SIP Calculator</a>
+      <a href="">PNB SIP Calculator</a>
+      <a href="">BOI SIP Calculator</a>
+      <a href="">Kotak Bank SIP Calculator</a>
+      <a href="">Union Bank SIP Calculator</a>
+      <a href="">IDBI SIP Calculator</a>
+      <a href="">PGIM SIP Calculator</a>
+      <a href="">ELSS Calculator</a>
+    </div>
+
+  </div>
+
+  </div>
+
+
+   <div class="information">
+    <h2>How Can a SIP Calculator HDFC Help You?</h2>
+    <p class="para">SIPs make for a more preferred choice of investing in Mutual Funds for many investors because they allow them to invest small quantum of capital over a period of time rather than make a lump-sum payment at one go. It is also a much more lucrative way of investing, allowing individuals to avail a much more disciplined approach towards their investments.</p>
+    <p class="para">The HDFC SIP calculator, additionally, makes for a beneficial tool in the individual’s arsenal and enables them to gauge the future value of the amount they have invested. Following are a few benefits that investors that avail by using an online SIP calculator </p>
+    <ul>
+      <li>It helps investors make an informed decision about the amount they want to invest.</li>
+      <li>Helps investors gauge the returns they will receive from their investment.</li>
+      <li>It enables individuals to determine their periodic SIP investment amount to help them reach a particular goal.</li>
+      <li>The HDFC SIP plan calculator
+         allows investors to calculate their SIP investment returns if they choose to top-up their amount each year.</li>
+    </ul>
+   </div>
+
+  
+  <div class="formula">
+    <h2>How does an HDFC SIP Mutual Fund Calculator Work?</h2>
+    <p class="para">An HDFC mutual fund SIP calculator uses the following formula to calculate the returns from an individual’s SIP investment </p>
+
+    <p class="para">M = P × [{(1 + i) ^n – 1} / i] × (1 + i)</p>
+
+    <p class="para">Where M is the amount received on the investment’s maturity, P is the amount invested periodically, n is the number of payments already made, and i is the rate of interest applicable.</p>
+
+    <p class="para">For instance, an individual chooses to invest Rs. 2000 each month for 12 months at a rate of interest of 14%.</p>
+    
+    <p class="para">For instance, an individual chooses to invest Rs. 2000 each month for 12 months at a rate of interest of 14%.</p>
+    
+   <p class="para">M = 2000 X [{(1+14)^12 – 1 }/ 14] x (1 + 14)
+
+   </p>
+ 
+   <p class="para">Therefore, M = Rs. 25,900 (approx.)</p>
+
+   <p class="para">However, investors should remember that the applicable rate of interest on SIPs varies according to market conditions. Therefore, they should be cautious while entering the data in the HDFC SIP calculator</p>
+
+   <p class="para">Following are the returns individuals can avail by investing in the best HDFC SIP Mutual Funds –</p>
+  
+</div>
+
+
+<table class="table-row">
+  <tbody>
+  <tr class="r1">
+    <td>Fund Name</td>
+    <td>1-year return</td>
+    <td>3-year return</td>
+  </tr>
+
+  <tr class="row">
+    <td>HDFC Hybrid- Equity Fund</td>
+    <td>1.58%</td>
+    <td>8.61%</td>
+  </tr>
+
+  <tr>
+    <td>HDFC Mid-Cap Opportunities Fund</td>
+    <td>-10.49%</td>
+    <td>4.9%</td>
+  </tr>
+
+  <tr class="row">
+     <td>HDFC Top 100 Fund</td>
+     <td>-0.38%</td>
+     <td>9.63%</td>
+  </tr>
+
+  <tr>
+    <td>HDFC Equity Fund</td>
+    <td>-5.95%</td>
+    <td>8.53%</td>
+  </tr>
+  </tbody>
+</table>
+    
+<div class="sip-work">
+
+  <h2>How does an HDFC SIP Mutual Fund Calculator Work?</h2>
+
+  <p class="para">Advantages of Using Groww’s SIP Calculator – </p>
+
+  <p class="para">Investors can avail the following advantages by using the Groww’s HDFC SIP Mutual Fund calculator </p>
+
+  <ul>
+    <li>Allows investors to calculate the total investment value at the end of investment tenure.</li>
+    <li>The HDFC SIP calculator helps investors plan their investment and based on their expected returns from the same.</li>
+    <li>Saves time and inaccuracies of manual calculations.</li>
+  </ul>
+
+     <p class="para">These calculators are, thus, extremely useful tools that can help investors make comprehensive financial decisions regarding their investments and follow them through to maximise the benefits availed.</p>
+
+</div>
+
+<p class="table-heading">“Looking to invest? Open an account with Groww and start investing in direct <span class="mf"> Mutual Funds </span> for free"</p>
+
+<hr class="hr1">
+
+
+<table class="tb2">
+  <thead>
+  <tr class="bac-col">
+    <th></th>
+    <th colspan="2" class="th2 pad pl">Asset Management Company</th>
+  </tr>
+</thead>
+
+  <tbody>
+  <tr class="bor">
+    <td class="pad pl">Axis Mutual Fund</td>
+    <td class="pl"> DHFL Pramerica Mutual Fund</td>
+    <td class="pl">Principal Mutual Fund</td>
+  </tr>
+
+  <tr class="bac-col">
+    <td class="pad pl">Kotak Mutual Fund</td>
+    <td class="pl">Sundaram Mutual Fund</td>
+    <td class="pl">BOI Axa Mutual Fund</td>
+  </tr>
+
+  <tr>
+    <td class="pad pl">Reliance Mutual Fund</td>
+    <td class="pl">Invesco Mutual Fund</td>
+    <td class="pl">Union Mutual Fund</td>
+  </tr>
+
+  <tr class="bac-col">
+    <td class="pad pl">HDFC Mutual Fund</td>
+    <td class="pl">LIC Mutual Fund</td>
+    <td class="pl">Taurus Mutual Fund</td>
+  </tr>
+
+  <tr>
+    <td class="pad pl">SBI Mutual Fund</td>
+    <td class="pl">JM Financial Mutual Fund</td>
+    <td class="pl">Edelweiss Mutual Fund</td>
+  </tr>
+
+  <tr class="bac-col">
+    <td class="pad">ICICI Prudential Mutual Fund</td>
+    <td>Baroda Pioneer Mutual Fund</td>
+    <td>Essel Mutual Fund</td>
+  </tr>
+
+  <tr>
+    <td class="pad pl">Aditya Birla Sunlife Mutual Fund</td>
+    <td class="pl">Canara Robeco Mutual Fund</td>
+    <td class="pl">Mahindra Mutual Fund</td>
+  </tr>
+
+  <tr class="bac-col">
+    <td class="pad pl">UTI Mutual Fund</td>
+    <td class="pl">HSBC Mutual Fund</td>
+    <td class="pl">Qauntum Mutual Fund</td>
+  </tr>
+
+  <tr>
+    <td class="pad pl">Franklin Templeton Mutual Fund</td>
+    <td class="pl">IDBI Mutual Fund</td>
+    <td class="pl">PPFAS Mutual Fund</td>
+  </tr>
+
+  <tr class="bac-col">
+    <td class="pad pl">IDFC Mutual Fund</td>
+    <td class="pl">Indiabulls Mutual Fund</td>
+    <td class="pl">IIFL Mutual Fund</td>
+  </tr>
+
+  <tr>
+    <td class="pad pl">DSP Blackrock Mutual Fund</td>
+    <td class="pl">Motilal Oswal Mutual Fund</td>
+    <td class="pl">Escorts Mutual Fund</td>
+  </tr>
+
+  <tr class="bac-col">
+    <td class="pad pl">TATA Mutual Fund</td>
+    <td class="pl">BNP Paribas Mutual Fund</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td class="pad pl">L and T Mutual Fund</td>
+    <td class="pl">Mirae Asset Mutual Fund</td>
+    <td></td>
+  </tr>
+
+</tbody>
+
+</table>
+ 
+
+
+
+<div class="footer">
+  <h2 class="fa">FAQs</h2>
+  <ul class="accordion">
+    <li>
+      <input type="radio" name="accordian" id="first">
+      <label for="first">What is referred to as “Till cancellation” in a SIP?</label>
+      <div class="content">
+        <p>Some SIPs offer a period – “Till cancellation”, within which the requisite SIP amount is deducted from an account at the predetermined frequency until the investor chooses to cancel the plan.</p>
+      </div>
+    </li>
+   <hr>
+    <li>
+      <input type="radio" name="accordian" id="second">
+      <label for="second">What is the minimum amount for investing in SIPs?</label>
+      <div class="content">
+        <p>Investors can choose to invest a minimum amount of Rs. 500 in their Mutual Fund through SIP, each month.</p>
+      </div>
+    </li>
+    <hr>
+    <li>
+      <input type="radio" name="accordian" id="third">
+      <label for="third">What is the SIP step-up feature?</label>
+      <div class="content">
+        <p>A SIP step-up feature enables investors to increase their investment installment amount periodically, by a particular amount in a specific interval. Investors can choose to increase their investment amount at a minimum interval of 6 months and by a minimum installment amount of Rs. 100.</p>
+      </div>
+    </li>
+    <hr>
+    <li>
+      <input type="radio" name="accordian" id="fourth">
+      <label for="fourth">What does a “Pause” in SIP refer to?</label>
+      <div class="content">
+        <p>The Pause feature of a SIP allows investors to halt their SIP installment from getting deducted for three payment periods. Investors can choose to cancel this pause feature and resume investments of their own volition.</p>
+      </div>
+    </li>
+    <hr>
+  </ul>
+  
+</div>
+
+
+<div class="links">
+
+  <div class="il">
+  <div class="img">
+    <img
+      src=" https://storage.googleapis.com/groww-assets/web-assets/img/website-logo/logo-dark-groww.svg"
+      alt="Grow logo"
+      width="150px"
+      height="50px"
+    />
+  </div>
+
+   <ul class="l">
+    <li>PRODUCTS</li>
+    <li>GROWW</li>
+    <li>QUICK LINKS</li>
+   </ul>
+  </div>
+
+     <div class="center">
+      <div class="main-con">
+        <span>Vaishnavi Tech Park, 3rd & 4th Floor</span>
+
+          <span>Sarjapur Main Road, Bellandur</span>
+        
+         <span> Bengaluru – 560103</span>
+        
+          <span> <u>Contact Us</u></span>
+
+         <div class="social-media-img">
+           <img src="//assets-netstorage.groww.in/web-assets/billion_groww_desktop/prod/_next/static/media/fb_icon_groww.30532469.svg" alt="" width="40px" height="30px">
+
+           <img src="//assets-netstorage.groww.in/web-assets/billion_groww_desktop/prod/_next/static/media/twitter_icon_groww.43dee78a.svg" alt="" width="40px" height="30px">
+
+           <img src="//assets-netstorage.groww.in/web-assets/billion_groww_desktop/prod/_next/static/media/yt_icon_groww.ebd07f19.svg" alt="" width="40px" height="30px">
+
+           <img src="//assets-netstorage.groww.in/web-assets/billion_groww_desktop/prod/_next/static/media/instagram_icon_groww.f8c7d006.svg" alt="" width="40px" height="30px">
+
+           <img src="//assets-netstorage.groww.in/web-assets/billion_groww_desktop/prod/_next/static/media/linkedin_icon_groww.a0c17280.svg" alt="" width="40px" height="30px">
+
+           <img src="//assets-netstorage.groww.in/web-assets/billion_groww_desktop/prod/_next/static/media/telegram_icon_groww.d144db3f.svg" alt="" width="40px" height="30px">
+         </div>
+
+      </div>
+        
+      <div class="main-list">
+
+      <ul class="l1">
+        <li>Stocks</li>
+        <li>Future & Options</li>
+        <li>Mutual Funds</li>
+        <li>US Stocks</li>
+        <li>Credit</li>
+      </ul>
+
+      <ul class="l2">
+        <li>About Us</li>
+        <li>Pricing</li>
+        <li>Blog</li>
+        <li>Media & Press</li>
+        <li>Careers</li>
+        <li>Help and Support</li>
+      </ul>
+
+     <ul class="l3">
+      <li>AMC Mutual Funds</li>
+      <li>Calculators</li>
+      <li>Glossary</li>
+      <li>Open Demat Account</li>
+      <li>Groww Digest</li>
+      <li>Sitemap</li>
+     </ul>
+
+    </div>
+  
+    
+  
+     </div>
+  
+      
+
+<div class="groww-rights">
+  
+    <div class="statement-right">
+      @2016-2023 Groww.All rights reserved,Built with <span class="heart">♥</span> in India
+    </div>
+    <div class="img-right">
+      <img src="//assets-netstorage.groww.in/web-assets/billion_groww_desktop/prod/_next/static/media/app-store-logo.0958106d.svg" alt="" width="147" height="45">
+      <img src="//assets-netstorage.groww.in/web-assets/billion_groww_desktop/prod/_next/static/media/google-play-badge.e21ffdaa.svg" alt="" width="147" height="45">
+    </div>
+</div>
+
+  
+
+</div>
+
+
+<div class="last">
+  <div class="para-head">
+    <p class="last-p-1">MOST POPULAR ON GROWW</p>
+    <p class="last-p-2">VERSION-4.1.2</p>
+  </div>
+
+  <div class="second-para">
+    <p class="second-line"><span class="co-whi-2">STOCK MARKET INDICES:</span><span class="co-aq-2">S&P BSE 100 <span class="vline">|</span> NIFTY 100 <span class="vline">|</span> NIFTY 50 <span class="vline">|</span> NIFTY MIDCAP 100 <span class="vline">|</span> NIFTY BANK <span class="vline">|</span> NIFTY NEXT 50</span></p>
+  </div>
+
+  <div class="third-para">
+    <p class="third-line"><span class="co-whi-3">POPULAR MUTUAL Fund:</span><span class="co-aq-3">AXIS BLUECHIP FUND <span class="vline">|</span> MOTILAL OSWAL S&P 500 INDWX FUND <span class="vline">|</span> PARAG PARIKH LONG TERM EQUITY FUND <span class="vline">|</span> SBI SMALL CAP FUND <span class="vline">|</span> HDFC BALANCE ADVANTAGE FUND <span class="vline">|</span> AXIS LONG TERM EQUITY FUND <span class="vline">|</span> UTI NIFTY INDEX FUND <span class="vline">|</span> AXIS MIDCAP FUND <span class="vline">|</span> SBI BLUECHIP FUND <span class="vline">|</span> MIRAE ASSET EMERGING BLUECHIP FUND</span></p>
+  </div>
+
+  <div class="fourth-para">
+    <p class="fourth-line"><span class="co-whi-4">MUTUAL FUND COMPANIES:</span><span class="co-aq-4">ICICI PRUDENTIAL <span class="vline">|</span>HDFC<span class="vline">|</span>NIPPON INDIA<span class="vline">|</span>ADITYA BIRLA SUN LIFE<span class="vline">|</span>SBI<span class="vline">|</span>UTI<span class="vline">|</span>FRANKLIN TEMPLETON<span class="vline">|</span>KOTAK MAHINDRA<span class="vline">|</span>IDFC<span class="vline">|</span>DSP<span class="vline">|</span>AXIS<span class="vline">|</span>TATA<span class="vline">|</span>SUNDRAM<span class="vline">|</span>PGIM<span class="vline">|</span>INVESCO<span class="vline">|</span>LIC<span class="vline">|</span>JM FINANCIAL<span class="vline">|</span>BARODA PIONEER<span class="vline">|</span>CANARA ROBECO<span class="vline">|</span>HSBC<span class="vline">|</span>IDBI<span class="vline">|</span>GROWW MUTUAL FUND<span class="vline">|</span>MOTILAL OSWAL<span class="vline">|</span>MIRAE ASSET<span class="vline">|</span>BOI AXA<span class="vline">|</span>UNION KBC<span class="vline">|</span>TAURUS<span class="vline">|</span>EDELWEISS<span class="vline">|</span>NAVI<span class="vline">|</span>MAHINDRA<span class="vline">|</span>QUANTUM<span class="vline">|</span>PPFAS<span class="vline">|</span>360 ONE<span class="vline">|</span>QUANT<span class="vline">|</span>SHRIRAM<span class="vline">|</span>ITI</span></p>
+  </div>
+
+  <div class="fifth-para">
+    <p class="fifth-line"><span class="co-whi-5">TOOLS:</span><span class="co-aq-5">BROKERAGE CALCULATION<span class="vline">|</span>MARGIN CALCULATOR<span class="vline">|</span>SIP CALCULATOR<span class="vline">|</span>SWP CALCULATOR<span class="vline">|</span>SUKANYA SAMRIDDHI YOJANA CALCULATORSP <span class="vline">|</span>MUTUAL FUND RETURNS CALCULATOR<span class="vline">|</span>FD CALCULATOR<span class="vline">|</span>RD CALCULATOR<span class="vline">|</span>EMI CALCULATOR<span class="vline">|</span>PPF CALCULATOR<span class="vline">|</span>EPF CALCULATOR<span class="vline">|</span>NPS CALCULATOR<span class="vline">|</span>GRATUITY CALCULATOR</span></p>
+  </div>
+  
+  <div class="sixth-para">
+    <p class="sixth-line"><span class="co-whi-6">OTHERS:</span><span class="co-aq-6">NSE <span class="vlin">|</span>BSE<span class="vlin">|</span>terms and Condition <span class="vlin">|</span>Policies and Producers<span class="vlin">|</span>Regulatory and Other Info <span class="vlin">|</span>Privacy Policy<span class="vlin">|</span>Disclosure<span class="vlin">|</span>Bug Bounty<span class="vlin">|</span>Download Forms<span class="vlin">|</span>Investor Charter and Grievance</span></p>
+  </div>
+
+</div>
+
+  
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+    <script src="Script.js"></script>
+    <script src="slider.js"></script>
+  </body>
+</html>
